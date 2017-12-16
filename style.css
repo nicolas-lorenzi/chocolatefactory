@@ -1,0 +1,94 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: grey;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.navbar {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar ul a {
+  padding: 20px;
+}
+
+.banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/1300/600/?image=997");
+  background-size: 1920px 400px;
+  background-repeat: no-repeat;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+
+.banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  width: 100%;
+  color: lightgrey;
+}
+
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.box {
+  padding-top: 50px;
+  background-color: #1C1C1C;
+  padding-bottom: 50px;
+}
